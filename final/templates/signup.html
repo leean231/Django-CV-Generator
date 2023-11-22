@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form method="post" action="{% url 'signup' %}">
+        {% csrf_token %}
+        <fieldset class="custom-fieldset">
+            <legend>Sign Up</legend>
+        {{ form.as_p }}
+        <button type="submit">Sign Up</button>
+    </fieldset>
+    </form>
+    <p>Already have an account? <a href="{% url 'login' %}">Login</a></p>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Resume Builder</title>
+</head>
+<body>
+    <h1>Resume Builder</h1>
+    <h2>Complete the following:-</h2>
+    <form method="post" action="/cv/" enctype="multipart/form-data">
+        {% csrf_token %}
+        <fieldset>
+            <legend>Fill in:-</legend>
+        {{ form.y_name.label_tag }} {{ form.y_name }}
+        {{ form.p_image_field.label_tag }} {{ form.p_image_field }}
+        {{ form.position.label_tag }} {{ form.position }}
+        {{ form.profile.label_tag }} {{ form.profile }}
+        {{ form.location.label_tag }} {{ form.location}}
+        {{ form.email.label_tag }} {{ form.email }}
+        {{ form.phone_number.label_tag }} {{ form.phone_number }}
+        {{ form.linkedin.label_tag }} {{ form.linkedin }}
+        {{ form.experience.label_tag }} {{ form.experience }}
+        {{ form.education.label_tag }} {{ form.education }}
+        {{ form.languages.label_tag }} {{ form.languages }}
+        {{ form.skills.label_tag }} {{ form.skills }}
+        {{ form.certificate.label_tag }} {{ form.certificate }}
+        <br>
+        <input type="submit" value="Submit"><br>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
