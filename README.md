@@ -1,2 +1,27 @@
 # Django-CV-Generator
-Practice Django skills with Django CV Generator. Sign in, fill out a form for a dynamically generated CV. Please note, the login functionality is under development. Clone the repository, install Django with pip install django, and run the server with python manage.py runserver. Contribute to enhance this foundational project.
+
+Learn Django with this project! Users can sign in, fill a form for CV details, and get a dynamically generated CV.
+
+## Features:
+
+- **User Authentication:** Sign in to access CV generation (Work in Progress).
+- **Form Submission:** Fill details for CV creation.
+- **Dynamic CV Generation:** Instantly generate CVs.
+
+## Technologies:
+
+- **Framework:** Django
+- **Styling:** Minimal; no CSS
+
+## Known Issues:
+
+- **Login Functionality:** Under development.
+
+## Getting Started:
+
+1. Clone the repository.
+2. Install Django with `pip install django`.
+3. Run the server: `python manage.py runserver`.
+
+Explore Django concepts with this foundational project. Contribute to enhance functionality. Happy coding!
+
