@@ -1,6 +1,5 @@
 # Django-CV-Generator
-
-Learn Django with this project! Users can sign in, fill a form for CV details, and get a dynamically generated CV.
+ Users can sign in, fill a form for CV details, and get a dynamically generated CV.
 
 ## Features:
 
